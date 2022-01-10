@@ -7,7 +7,8 @@ import AppClass from './components/AppClass';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppClass />
+    {/* <App /> */}
+    <AppClass/>
   </React.StrictMode>,
   document.getElementById('root')
 );
