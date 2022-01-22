@@ -119,6 +119,12 @@ h2 {
   border: 1px solid lightgray;
 }
 
+.container {
+  margin: auto;
+  padding-top: 24px;
+  max-width: 48rem;
+}
+
 .check-all-container {
   display: flex;
   justify-content: space-between;
@@ -147,6 +153,31 @@ h2 {
 .no-todos-container p {
   margin-top: 20px;
   text-align: center;
+}
+
+/* Navigation Bar  */
+
+nav {
+  background: white;
+  padding: 16px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+nav ul li:not(:first-child) {
+  margin-left: 16px;
+}
+
+nav ul li a {
+  list-style: none;
+}
+
+.active {
+  font-weight: bold;
 }
 
 /* Transition  */
